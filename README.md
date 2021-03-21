@@ -29,6 +29,9 @@ Click on the Save icon, and the new note entered will be saved and appear in the
 When an existing note is clicked in the list in the left-hand column, that note appears in the right-hand column
 Click on the Write icon in the navigation at the top of the page, you will be presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
+
+* [Deployed Application on Heroku](https://stark-journey-29567.herokuapp.com/)
+
 The following images show the web application's appearance and functionality: 
 
 ![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./public/assets/images/11-express-homework-demo-01.png)
