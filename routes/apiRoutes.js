@@ -30,8 +30,11 @@ module.exports = (app) => {
   // API Delete Requests - By ID
   // ---------------------------------------------------------------------------
   app.delete('/api/notes/:id', (req, res) => {
+    //set variable for note to delete
     const noteToDelete = req.params.id;
+    //filter to get all notes except the note being deleted
     theNotes = theNotes.filter(theNote => theNote.id !== noteToDelete);
+    //rewrite the json after filtering
     fs.writeFileSync("./db/db.json", JSON.stringify(theNotes));
     res.json(theNotes);
   });
